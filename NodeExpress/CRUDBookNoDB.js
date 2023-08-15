@@ -36,6 +36,7 @@ app.post('/books', (req, res) => {
     const book = {
         id: books.length + 1,
         title: req.body.title,
+        author: req.body.author
     };
     books.push(book);
     res.json(book);
