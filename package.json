@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node PGSqlCRUD.js",
+    "start": "node index.js",
     "format": "prettier --write *.js",
     "dev": "nodemon index.js"
   },
